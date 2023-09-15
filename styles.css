@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(199, 199, 199);
+}
+h1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+#post1, #post2, #post3, #post4{
+    background-color: white;
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+img {
+    width: 100%;
+ }
+ .tittle {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: small;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .tittle .number{
+     color: grey;
+ }
+ .text p{
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
